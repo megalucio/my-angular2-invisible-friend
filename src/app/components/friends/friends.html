@@ -1,0 +1,10 @@
+<h3>People</h3>
+<div *ngFor="let email of emails">
+  Email: {{email}}
+</div>
+<div>
+  <label>Email:</label> <input #email />
+  <button (click)="add(email.value)">
+    Add
+  </button>
+</div>

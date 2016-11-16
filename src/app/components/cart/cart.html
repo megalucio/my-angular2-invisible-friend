@@ -1,0 +1,11 @@
+<h3>Cart Component</h3>
+
+
+<div *ngFor="let product of products">
+  <div>{{product.name}}</div>   
+  <div>{{(product.prices|iterable)[0].value.price}}</div>
+</div>
+
+<div><button (click)="addProduct(testProduct)" >Test</button></div>
+
+<div>TOTAL: {{total}}</div>

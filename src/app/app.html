@@ -1,0 +1,26 @@
+<h3>
+  Fruit Shop
+</h3>
+<nav>
+  <a [routerLink]="['/']">
+    Home
+  </a>
+  |
+	<a [routerLink]="['/friends']">
+    Friends
+  </a>
+  |
+	<a [routerLink]="['/about']">
+    About
+  </a>
+</nav>
+
+<main>
+	<router-outlet></router-outlet>
+</main>
+<product [product]="selectedProduct"></product>
+<cart></cart>
+<div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
+<footer>
+  © 2016
+</footer>
