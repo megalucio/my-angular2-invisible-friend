@@ -1,7 +1,7 @@
 {
-  "name": "my-angular2-ecommerce-shop",
+  "name": "my-angular2-invisible-friend",
   "version": "1.0.0",
-  "description": "A simple starter Angular2 project",
+  "description": "An example application to simulate an invisible friend game",
   "scripts": {
     "build": "webpack --inline --colors --progress --display-error-details --display-cached",
     "watch": "npm run build -- --watch",
@@ -9,7 +9,7 @@
     "start": "npm run server"
   },
   "contributors": [
-    "Ignacio Iñigo<iinigohe@gmail.com>"
+    "Ignacio Iñigo<megalucio@gmail.com>"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -46,14 +46,14 @@
   },
   "keywords": [
     "Angular2",
-    "angular2-fruit-shop"
+    "my-angular2-invisible-friend"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/megalucio/my-angular2-ecommerce-shop.git"
+    "url": "git+https://github.com/megalucio/my-angular2-invisible-friend.git"
   },
   "bugs": {
-    "url": "https://github.com/megalucio/my-angular2-ecommerce-shop/issues"
+    "url": "https://github.com/megalucio/my-angular2-invisible-friend/issues"
   },
-  "homepage": "https://github.com/megalucio/my-angular2-ecommerce-shop#readme"
+  "homepage": "https://github.com/megalucio/my-angular2-invisible-friend#readme"
 }
